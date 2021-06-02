@@ -1,0 +1,1 @@
+{"version":3,"file":"nested.js","sourceRoot":"","sources":["nested.ts"],"names":[],"mappings":";AAAA,OAAO,EAAE,SAAS,EAAE,MAAM,eAAe,CAAC;AAO1C,IAAa,wBAAwB,GAArC,MAAa,wBAAwB;CAAG,CAAA;AAA3B,wBAAwB;IALpC,SAAS,CAAC;QACT,8DAA8D;QAC9D,QAAQ,EAAE,mBAAmB;QAC7B,WAAW,EAAE,eAAe;KAC7B,CAAC;GACW,wBAAwB,CAAG;SAA3B,wBAAwB"}

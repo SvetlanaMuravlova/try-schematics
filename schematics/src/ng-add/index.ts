@@ -47,9 +47,7 @@ const components: { [key: string]: { moduleName: string; link: string; animated?
 };
 
 export default function addBsToPackage(options: Schema): Rule {
-  const componentName = options.component
-    ? options.component
-    : options['--'] && options['--'][1];
+  const componentName = options.component;
   const { project } = options;
 
   return async (tree: Tree, context: SchematicContext) => {
@@ -68,7 +66,7 @@ export default function addBsToPackage(options: Schema): Rule {
     if (componentName) {
       addModuleOfComponent(projectWorkspace, tree, context, componentName);
     }
-    addAnimationModule(projectWorkspace, tree, context, componentName);
+    addAnimationModule(projectWorkspace, tree, componentName);
   };
 }
 
@@ -121,7 +119,7 @@ function insertCommonStyles(project: ProjectDefinition, host: Tree, workspace: W
   insertBootstrapStyles(project, host, workspace);
 }
 
-function addAnimationModule(project: ProjectDefinition, host: Tree, context: SchematicContext, componentName: string): Rule {
+function addAnimationModule(project: ProjectDefinition, host: Tree, componentName: string): Rule {
   if (!project || !(!componentName || components[componentName].animated)) {
     return;
   }

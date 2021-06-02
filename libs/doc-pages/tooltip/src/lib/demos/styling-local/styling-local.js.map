@@ -1,0 +1,1 @@
+{"version":3,"file":"styling-local.js","sourceRoot":"","sources":["styling-local.ts"],"names":[],"mappings":";AAAA,OAAO,EAAE,SAAS,EAAE,MAAM,eAAe,CAAC;AAmB1C,IAAa,gCAAgC,GAA7C,MAAa,gCAAgC;CAAG,CAAA;AAAnC,gCAAgC;IAjB5C,SAAS,CAAC;QACT,8DAA8D;QAC9D,QAAQ,EAAE,4BAA4B;QACtC,WAAW,EAAE,sBAAsB;QACnC,MAAM,EAAE;YACN;;;;;;;;;KASC;SACF;KACF,CAAC;GACW,gCAAgC,CAAG;SAAnC,gCAAgC"}

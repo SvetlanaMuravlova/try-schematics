@@ -1,0 +1,1 @@
+{"version":3,"file":"adaptive-position.js","sourceRoot":"","sources":["adaptive-position.ts"],"names":[],"mappings":";AAAA,OAAO,EAAE,SAAS,EAAE,MAAM,eAAe,CAAC;AAO1C,IAAa,uCAAuC,GAApD,MAAa,uCAAuC;CAAG,CAAA;AAA1C,uCAAuC;IALnD,SAAS,CAAC;QACT,8DAA8D;QAC9D,QAAQ,EAAE,mCAAmC;QAC7C,WAAW,EAAE,0BAA0B;KACxC,CAAC;GACW,uCAAuC,CAAG;SAA1C,uCAAuC"}

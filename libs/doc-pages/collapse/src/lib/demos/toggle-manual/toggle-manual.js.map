@@ -1,0 +1,1 @@
+{"version":3,"file":"toggle-manual.js","sourceRoot":"","sources":["toggle-manual.ts"],"names":[],"mappings":";AAAA,OAAO,EAAE,SAAS,EAAE,MAAM,eAAe,CAAC;AAO1C,IAAa,yBAAyB,GAAtC,MAAa,yBAAyB;IAAtC;QACE,WAAM,GAAG,KAAK,CAAC;IACjB,CAAC;CAAA,CAAA;AAFY,yBAAyB;IALrC,SAAS,CAAC;QACT,8DAA8D;QAC9D,QAAQ,EAAE,oBAAoB;QAC9B,WAAW,EAAE,sBAAsB;KACpC,CAAC;GACW,yBAAyB,CAErC;SAFY,yBAAyB"}

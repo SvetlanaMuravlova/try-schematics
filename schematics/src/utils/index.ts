@@ -26,7 +26,8 @@ export function addStyleToTarget(project: ProjectDefinition, targetName: string,
   if (!styles) {
     targetOptions.styles = [assetPath];
   } else {
-    const existingStyles = styles.map((s) => typeof s === 'string' ? s : s['input']);
+    // const existingStyles = styles.map((s) => typeof s === 'string' ? s : s['input']);
+    const existingStyles = styles.map((s) => typeof s === 'string' ? s : s.valueOf());
 
     for (const[, stylePath] of existingStyles.entries()) {
       // If the given asset is already specified in the styles, we don't need to do anything.

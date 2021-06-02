@@ -19,5 +19,5 @@ export function getProjectMainFile(project: ProjectDefinition): string {
       `workspace config (${project.sourceRoot})`);
   }
 
-  return buildOptions.main;
+  return buildOptions.main as string;
 }

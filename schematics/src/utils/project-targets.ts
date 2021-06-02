@@ -11,10 +11,10 @@ import { ProjectDefinition } from '@angular-devkit/core/src/workspace';
 /** Resolves the architect options for the build target of the given project. */
 export function getProjectTargetOptions(project: ProjectDefinition, buildTarget: string) {
   if (project.targets &&
-    project.targets[buildTarget] &&
-    project.targets[buildTarget].options) {
+    project.targets.get(buildTarget) &&
+    project.targets.get(buildTarget).options) {
 
-    return project.targets[buildTarget].options;
+    return project.targets.get(buildTarget).options;
   }
 
   throw new Error(`Cannot determine project target configuration for: ${buildTarget}.`);

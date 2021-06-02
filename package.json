@@ -3,6 +3,7 @@
   "version": "7.0.0-rc.1",
   "license": "MIT",
   "author": "Dmitriy Shekhovtsov <valorkin@gmail.com>",
+  "schematics": "schematics/src/collection.json",
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/valor-software/ngx-bootstrap.git"
@@ -41,7 +42,8 @@
     "cy:run:all": "nx e2e --config integrationFolder=cypress --spec '**/*_spec.ts'",
     "scully": "scully",
     "scully:serve": "scully serve",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "build:schematics": "tsc -p schematics/tsconfig.json"
   },
   "private": true,
   "keywords": [
@@ -72,6 +74,7 @@
     "@scullyio/ng-lib": "1.1.1",
     "@scullyio/scully": "1.1.1",
     "@stackblitz/sdk": "1.5.2",
+    "execa": "5.0.1",
     "ngx-page-scroll": "7.0.4",
     "ngx-page-scroll-core": "7.0.4",
     "rxjs": "6.6.3",

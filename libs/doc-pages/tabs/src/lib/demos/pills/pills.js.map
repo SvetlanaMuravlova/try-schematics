@@ -1,0 +1,1 @@
+{"version":3,"file":"pills.js","sourceRoot":"","sources":["pills.ts"],"names":[],"mappings":";AAAA,OAAO,EAAE,SAAS,EAAE,MAAM,eAAe,CAAC;AAO1C,IAAa,sBAAsB,GAAnC,MAAa,sBAAsB;CAAG,CAAA;AAAzB,sBAAsB;IALlC,SAAS,CAAC;QACT,8DAA8D;QAC9D,QAAQ,EAAE,iBAAiB;QAC3B,WAAW,EAAE,cAAc;KAC5B,CAAC;GACW,sBAAsB,CAAG;SAAzB,sBAAsB"}

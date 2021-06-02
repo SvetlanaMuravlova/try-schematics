@@ -1,0 +1,1 @@
+{"version":3,"file":"trigger-by-isopen-property.js","sourceRoot":"","sources":["trigger-by-isopen-property.ts"],"names":[],"mappings":";AAAA,OAAO,EAAE,SAAS,EAAE,MAAM,eAAe,CAAC;AAO1C,IAAa,iCAAiC,GAA9C,MAAa,iCAAiC;CAC7C,CAAA;AADY,iCAAiC;IAL7C,SAAS,CAAC;QACT,8DAA8D;QAC9D,QAAQ,EAAE,iCAAiC;QAC3C,WAAW,EAAE,mCAAmC;KACjD,CAAC;GACW,iCAAiC,CAC7C;SADY,iCAAiC"}

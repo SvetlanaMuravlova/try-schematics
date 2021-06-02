@@ -1,0 +1,1 @@
+{"version":3,"file":"vertical-pills.js","sourceRoot":"","sources":["vertical-pills.ts"],"names":[],"mappings":";AAAA,OAAO,EAAE,SAAS,EAAE,MAAM,eAAe,CAAC;AAO1C,IAAa,8BAA8B,GAA3C,MAAa,8BAA8B;CAAG,CAAA;AAAjC,8BAA8B;IAL1C,SAAS,CAAC;QACT,8DAA8D;QAC9D,QAAQ,EAAE,0BAA0B;QACpC,WAAW,EAAE,uBAAuB;KACrC,CAAC;GACW,8BAA8B,CAAG;SAAjC,8BAA8B"}

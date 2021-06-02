@@ -1,0 +1,1 @@
+{"version":3,"file":"rating.config.js","sourceRoot":"","sources":["rating.config.ts"],"names":[],"mappings":";AAAA,OAAO,EAAE,UAAU,EAAE,MAAM,eAAe,CAAC;AAE3C,yCAAyC;AAIzC,IAAa,YAAY,GAAzB,MAAa,YAAY;IAAzB;QACE,4BAA4B;QAC5B,cAAS,GAAG,QAAQ,CAAC;IACvB,CAAC;CAAA,CAAA;AAHY,YAAY;IAHxB,UAAU,CAAC;QACV,UAAU,EAAE,MAAM;KACnB,CAAC;GACW,YAAY,CAGxB;SAHY,YAAY"}

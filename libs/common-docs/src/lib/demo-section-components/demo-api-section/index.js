@@ -1,0 +1,30 @@
+import { __decorate } from "tslib";
+/**
+ * @author ng-team
+ * @copyright ng-bootstrap
+ */
+// todo: add configuration of base url for source code
+import { NgModule } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { ApiSectionsComponent } from './api-sections.component';
+import { NgApiDocModule } from '../../api-docs/index';
+export { ApiSectionsComponent } from './api-sections.component';
+let ApiSectionsComponentModule = class ApiSectionsComponentModule {
+};
+ApiSectionsComponentModule = __decorate([
+    NgModule({
+        declarations: [
+            ApiSectionsComponent
+        ],
+        imports: [
+            CommonModule,
+            NgApiDocModule
+        ],
+        exports: [
+            ApiSectionsComponent
+        ],
+        providers: []
+    })
+], ApiSectionsComponentModule);
+export { ApiSectionsComponentModule };
+//# sourceMappingURL=index.js.map

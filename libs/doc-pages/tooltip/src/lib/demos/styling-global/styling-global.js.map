@@ -1,0 +1,1 @@
+{"version":3,"file":"styling-global.js","sourceRoot":"","sources":["styling-global.ts"],"names":[],"mappings":";AAAA,OAAO,EAAE,SAAS,EAAE,iBAAiB,EAAE,MAAM,eAAe,CAAC;AAQ7D,IAAa,iCAAiC,GAA9C,MAAa,iCAAiC;CAAG,CAAA;AAApC,iCAAiC;IAN7C,SAAS,CAAC;QACT,8DAA8D;QAC9D,QAAQ,EAAE,6BAA6B;QACvC,WAAW,EAAE,uBAAuB;QACpC,aAAa,EAAE,iBAAiB,CAAC,IAAI;KACtC,CAAC;GACW,iCAAiC,CAAG;SAApC,iCAAiC"}
