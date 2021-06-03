@@ -43,7 +43,8 @@
     "scully": "scully",
     "scully:serve": "scully serve",
     "prepare": "husky install",
-    "build:schematics": "tsc -p schematics/tsconfig.json"
+    "build:schematics": "tsc -p schematics/tsconfig.json",
+    "test:schematics": "ts-node --project schematics/tsconfig.spec.json node_modules/jasmine/bin/jasmine  schematics/src/**/*.spec.ts"
   },
   "private": true,
   "keywords": [
